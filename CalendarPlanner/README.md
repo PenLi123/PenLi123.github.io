@@ -33,7 +33,7 @@ Make sure Qt6 and CMake (≥ 3.14) are installed.
 ```bash
 mkdir build
 cd build
-cmake ..
+cmake .. -DCMAKE_PREFIX_PATH=$(brew --prefix qt@6)/lib/cmake
 make
 ./CalendarPlanner
 ```
