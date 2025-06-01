@@ -5,7 +5,7 @@ Built with **C++ and Qt6**, it offers a simple and responsive interface for addi
 
 ---
 
-## ✨ Features
+## Features
 
 - Interactive calendar with date selection
 - Add tasks for a selected day
@@ -49,7 +49,7 @@ python3 app.py
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **C++17**
 - **Qt 6** (Widgets, Calendar, Network)
