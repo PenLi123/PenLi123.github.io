@@ -55,3 +55,8 @@ python3 app.py
 - **Qt 6** (Widgets, Calendar, Network)
 - **CMake** (build system)
 - **Flask** (minimal Python API)
+
+---
+## License
+
+This project is open-source and distributed under the MIT license.
