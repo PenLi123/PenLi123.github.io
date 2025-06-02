@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_CalendarPlanner_FILE /Users/peinili/Desktop/PenLi123.github.io/CalendarPlanner/build/CalendarPlanner)
-set(__QT_DEPLOY_TARGET_CalendarPlanner_TYPE EXECUTABLE)
