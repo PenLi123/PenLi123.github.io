@@ -1,3 +1,11 @@
+<!--
+  This .ui file defines the graphical user interface (GUI)
+  for the CalendarPlannerWindow class using Qt Designer format.
+  It includes the layout and properties of the main calendar,
+  task input field, task list, and buttons.
+  This file is processed by Qt's uic to generate C++ UI code.
+-->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>CalendarPlannerWindow</class>

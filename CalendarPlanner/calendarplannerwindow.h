@@ -20,15 +20,19 @@ public:
 
 private:
     Ui::CalendarPlannerWindow *ui;
+
+    // Stores tasks associated with each date
     QMap<QDate, QStringList> dailyTasksMap;
+
+    // Handles HTTP requests to the Flask backend
     QNetworkAccessManager* networkManager;
 
-    void setupConnections();
-    void toggleStrikethrough(QListWidgetItem* item);
-    void addTask();
-    void deleteSelectedTask();
-    void updateTaskListForDate(const QDate& date);
-    void updateCalendarHighlights();
+    void setupConnections();                         // Connects signals and slots
+    void toggleStrikethrough(QListWidgetItem* item); // Strikes through checked tasks
+    void addTask();                                  // Adds a task for the selected date
+    void deleteSelectedTask();                       // Deletes the selected task
+    void updateTaskListForDate(const QDate& date);   // Updates the task list display
+    void updateCalendarHighlights();                 // Highlights dates that have tasks
 };
 
 #endif // CALENDARPLANNERWINDOW_H
